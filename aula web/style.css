@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Stalysta' ;
+    src: url(./fonts/Stalysta_personal\ use.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.borel-regular {
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+p{
+    color: #7a460b;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Borel', cursive;
+    line-height: 20px;
+}
+
+
+
+ul li{
+    list-style-type: none;
+}
+
+ul li::before{
+    content: "<"
+}
+
+a:hover{
+    background-color: red;
+    transition: ease-in 250ms;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+
+.italico{
+    font-style: italic;
+}
+
+div{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    /* espaçamento dentro da box */
+    padding: 20px 50px;
+    /* espaçamento entre as boxes */
+    margin: 30px 25%;
+    text-align: justify;
+}
