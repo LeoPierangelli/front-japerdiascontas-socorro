@@ -10,10 +10,26 @@
 
 <body>
     <button id="btnLogar" onclick="logar()">Login</button>
-    
+    <select id="cardapio">
+        <option value="cafe">Café da manhã</option>
+        <option value="almoco">Almoço</option>
+        <option value="jantar">Jantar</option>
+    </select>
+    <p id="textop1"></p>
 
 
-    
+    <button id="btnImagem" onclick="trocarImagem()">Trocar imagem</button>
+    <br> <br>
+    <img src="https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" id="imagem">
+
+
+
+    <style>
+        .active{
+            background-color: lime;
+        }
+    </style>
+
 </body>
 
 </html>
